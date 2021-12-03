@@ -1,0 +1,40 @@
+.main{
+    border:1px solid grey
+}
+.tablename{
+    display: flex;
+    background-color: #861f41;
+    text-align: center;
+    color: white;
+    padding: 1px
+}
+.head{
+    width:100%
+}
+.pageselect{
+    margin-right: 5px;
+}
+.options{
+    font-size: x-small;
+    width:45px
+}
+.maintable{
+    margin-top:1px;
+    width: 100%;
+    border:1px solid grey
+}
+.tablehead{
+    background-color: #861f41;
+    color: white;
+}
+
+
+.tablehead {
+    background-color: #861f41;
+    color: white;
+}
+tbody, td, tfoot, th, thead, tr,table {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}

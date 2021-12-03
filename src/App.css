@@ -1,0 +1,75 @@
+.App {
+  width:100vw;
+  height:100vh
+  
+  
+}
+
+
+.maroontheme {
+  background: #861f41;
+  position: relative;
+  z-index: 9999;
+  box-shadow: 0 1px 5px #ababab;
+}
+
+.maroontheme .topBand {
+  background: 0 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.topMenu {
+  z-index: 9999;
+  width: 100%;
+}
+
+.topMenu .logoSect {
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 0;
+}
+.maroontheme .topMenu .whitebg {
+ margin-top: 2rem;
+  width: 83%;
+  float: right;
+  background: #fff url(https://www.axisbank.com/assets/images/menucurve.jpg) no-repeat;
+  background-position: 0 0;
+}
+.maroontheme .topMenu .navbarSect {
+  margin-left: 2.8rem;
+}
+
+.topMenu .navbarSect {
+  display: inline-block;
+  margin-left: 2rem;
+  padding: 15px;
+  width: 100%;
+
+}
+.maroontheme .topMenu .whitebg:after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 100%;
+  margin-left: -15px;
+  top: 0;
+  min-height: 5.9rem;
+}
+
+

@@ -1,0 +1,23 @@
+<div >
+       <div className="App">
+         <div style={{display:"flex"}}>
+           <div style={{height:"100vh"}}>
+           <Sidemenu></Sidemenu>
+           </div>
+           <div style={{width:"100%"}}>
+             <div>
+                <Navbar></Navbar>
+             </div>
+             <div style={{padding:"4px"}}>
+                <Details></Details>
+             </div>
+             <div style={{padding:"2px"}}>
+               <Table></Table>
+             </div>
+         </div>
+
+         </div>
+        
+      </div>
+     
+    </div>
